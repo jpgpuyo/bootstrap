@@ -1,0 +1,27 @@
+<resources>
+    <!-- Home -->
+    <string name="user_list_title">Users</string>
+    <string name="user_list_empty">Swipe down to see the user list.</string>
+    <string name="user_list_id">Identifier</string>
+    <string name="user_list_username">Name</string>
+    <string name="user_list_email">Email</string>
+
+    <!-- Detail -->
+    <string name="user_detail_title">User detail</string>
+    <string name="user_detail_id">Identifier</string>
+    <string name="user_detail_username">Name</string>
+    <string name="user_detail_email">Email</string>
+
+    <!-- Errors -->
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="nointernet_error">Ooops… Something went wrong. Please, review your internet connection</string>
+    <string name="http_not_found">Ooops… Something is happening in our servers. Please, retry in a few minutes</string>
+    <string name="http_status_code_not_handled">Ooops… Something is happening in our servers. Please, retry in a few minutes</string>
+    <string name="http_error_not_handled">Ooops… Something is happening in our servers. Please, retry in a few minutes</string>
+
+    <!-- Notifications -->
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">app_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Android Boostrap</string>
+    <string name="default_notification_title">@string/app_name</string>
+</resources>
