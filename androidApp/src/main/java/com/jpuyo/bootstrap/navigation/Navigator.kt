@@ -35,12 +35,12 @@ class Navigator {
             composable(route = HomeRoutes.UserDetail.routeName.plus("/{${HomeRoutes.USER_ID}}")) { entry ->
                 val viewModel = getViewModel<UserDetailViewModel>()
                 val userId = entry.arguments?.getString(HomeRoutes.USER_ID)
-                    UserDetailScreen(
-                        userId = userId,
-                        userDetailState = viewModel.userDetailState.value,
-                        onTriggerEvent = viewModel::onTriggerEvent,
-                        onBackClicked = { navController.popBackStack() }
-                    )
+                UserDetailScreen(
+                    userId = userId,
+                    userDetailState = viewModel.userDetailState.value,
+                    onTriggerEvent = viewModel::onTriggerEvent,
+                    onBackClicked = { navController.popBackStack() }
+                )
             }
         }
     }

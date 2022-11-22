@@ -73,13 +73,6 @@ object Dependencies {
         const val fragment = "androidx.fragment:fragment-ktx:1.3.6"
         const val recycler = "androidx.recyclerview:recyclerview:1.2.0"
         const val material = "com.google.android.material:material:1.4.0"
-        const val qrzxing = "com.google.zxing:core:3.4.0"
-
-        const val maps = "com.google.android.libraries.maps:maps:3.1.0-beta"
-        const val mapsKtx = "com.google.maps.android:maps-v3-ktx:3.2.0"
-        const val playServicesMaps = "com.google.android.gms:play-services-maps:18.0.0"
-        const val playServicesLocation = "com.google.android.gms:play-services-location:18.0.0"
-        const val volley = "com.android.volley:volley:1.2.1"
     }
 
     object DI {
